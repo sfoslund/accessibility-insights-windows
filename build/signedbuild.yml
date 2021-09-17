@@ -286,6 +286,11 @@ jobs:
     inputs:
       BinSkim: true
 
+  - task: ManifestGeneratorTask@0
+    displayName: 'Manifest generation'
+    inputs:
+      BuildDropPath: '$(System.DefaultWorkingDirectory)\src\MSI\bin\Release\msi'
+
   - task: VSTest@2
     displayName: 'Test Assemblies **\release\*test*.dll;-:**\obj\**'
     inputs:
