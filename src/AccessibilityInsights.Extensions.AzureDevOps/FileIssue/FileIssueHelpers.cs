@@ -304,6 +304,20 @@ namespace AccessibilityInsights.Extensions.AzureDevOps.FileIssue
             return dlg.IssueId;
         }
 
+        private static bool IsWebView2RuntimeInstalled()
+        {
+            try
+            {
+                CoreWebView2Environment.GetAvailableBrowserVersionString();
+                return true;
+            }
+            catch (WebView2RuntimeNotFoundException e)
+            {
+                e.ReportException();
+                return false;
+            }
+        }
+
         /// <summary>
         /// Creates a temp file with the given extension and returns its path
         /// </summary>
