@@ -117,73 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="extensionName" xml:space="preserve">
-    <value>GitHub</value>
-  </data>
-  <data name="FormattedLink" xml:space="preserve">
-    <value>{0}/issues/new?title={1}&amp;body={2}</value>
-  </data>
-  <data name="NoFailureIssueBody" xml:space="preserve">
-    <value>The following accessibility issue needs investigation.
-
-**App:** {0}
-
-**Element path:** {1}
-
-**Issue Details:** []
-
-**How To Fix:** []</value>
-  </data>
-  <data name="NoFailureIssueTitle" xml:space="preserve">
-    <value>({0}/{1}) has an accessibility issue that needs investigation</value>
-  </data>
-  <data name="RepoLinkDescriptionItalicized" xml:space="preserve">
-    <value>https://github.com/owner/repo</value>
-  </data>
-  <data name="SingleFailureIssueBody" xml:space="preserve">
-    <value>The following accessibility issue needs investigation.
-
-**App:** {0}
-
-**Element path:** {1}
-
-**Issue Details:** {2} [{3}]({4})
-
-**How To Fix:** {5}
-
-This accessibility issue was found using Accessibility Insights for Windows, a tool that helps debug and find accessibility issues earlier. Get more information and download this tool at https://aka.ms/AccessibilityInsights.</value>
-  </data>
-  <data name="SingleFailureIssueTitle" xml:space="preserve">
-    <value>{0}: ({1}/{2}) {3}</value>
-  </data>
-  <data name="RepoLinkDescriptionPrefix" xml:space="preserve">
-    <value>Enter desired GitHub repo link (example: </value>
-  </data>
-  <data name="RepoLinkDescriptionSuffix" xml:space="preserve">
-    <value>)</value>
-  </data>
-  <data name="AlphaNumricPattern" xml:space="preserve">
-    <value>[a-zA-Z0-9]</value>
-  </data>
-  <data name="GitHubLink" xml:space="preserve">
-    <value>(https:/*github.com/*|https:/*www.github.com/*|www.github.com/*)</value>
-  </data>
-  <data name="LinkPatttern" xml:space="preserve">
-    <value>^{0}/+{1}/+{2}$</value>
-  </data>
-  <data name="RepoNamePattern" xml:space="preserve">
-    <value>({0}?[_]?[-]?[.]?)+</value>
-  </data>
-  <data name="RepoNameSpecialCasesDoubleDot" xml:space="preserve">
-    <value>..</value>
-  </data>
-  <data name="UserNamePattern" xml:space="preserve">
-    <value>{0}+([-]{0}+)*</value>
-  </data>
-  <data name="InvalidLink" xml:space="preserve">
-    <value>Invalid GitHub Link Format!</value>
-  </data>
-  <data name="RepoLinkAutomationName" xml:space="preserve">
-    <value>GitHub repo link</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DialogBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dialogbackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,15 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>AccessibilityInsights.Extensions.GitHubUnitTests</AssemblyName>
-    <RootNamespace>AccessibilityInsights.Extensions.GitHubUnitTests</RootNamespace>
+    <AssemblyName>AccessibilityInsightsUnitTests</AssemblyName>
+    <RootNamespace>AccessibilityInsightsUnitTests</RootNamespace>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <Import Project="..\..\build\NetFrameworkTest.targets" />
-
-  <ItemGroup>
-    <ProjectReference Include="..\AccessibilityInsights.Extensions.GitHub\Extensions.GitHub.csproj" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Codecov" Version="1.13.0" />
@@ -24,6 +21,11 @@
     <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccessibilityInsights.SharedUx\SharedUx.csproj" />
+    <ProjectReference Include="..\AccessibilityInsights\AccessibilityInsights.csproj" />
   </ItemGroup>
 
 </Project>

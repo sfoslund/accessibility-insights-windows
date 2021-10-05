@@ -152,6 +152,15 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Telemetry has been disabled by an administrator of this computer..
+        /// </summary>
+        public static string ApplicationSettingsControl_TelemetryDisabledByAdministrator {
+            get {
+                return ResourceManager.GetString("ApplicationSettingsControl_TelemetryDisabledByAdministrator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Application settings.
         /// </summary>
         public static string ApplicationSettingsControlAutomationName {
@@ -611,6 +620,24 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Later.
+        /// </summary>
+        public static string btnUpdateLaterText {
+            get {
+                return ResourceManager.GetString("btnUpdateLaterText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update now.
+        /// </summary>
+        public static string btnUpdateNowText {
+            get {
+                return ResourceManager.GetString("btnUpdateNowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to start the video. please use this URL to open page.
         /// {0}.
         /// </summary>
@@ -884,6 +911,15 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        public static string closeDialogText {
+            get {
+                return ResourceManager.GetString("closeDialogText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Color chooser.
         /// </summary>
         public static string ColorChooserAutomationPropertiesName {
@@ -893,7 +929,7 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Auto-detection allows you to evaulate color contrast ratios by hovering over an element or setting the keyboard focus on it..
+        ///   Looks up a localized string similar to Auto-detection allows you to evaluate color contrast ratios by hovering over an element or setting the keyboard focus on it..
         /// </summary>
         public static string ColorContrast_AutoDetectGuidance {
             get {
@@ -952,6 +988,24 @@ namespace AccessibilityInsights.SharedUx.Properties {
         public static string ColorContrast_LargeSampleHelpText {
             get {
                 return ResourceManager.GetString("ColorContrast_LargeSampleHelpText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Test result large text.
+        /// </summary>
+        public static string ColorContrast_LargeTextResultHelpText {
+            get {
+                return ResourceManager.GetString("ColorContrast_LargeTextResultHelpText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Test result Graphical objects.
+        /// </summary>
+        public static string ColorContrast_NonTextObjectsTestResultHelpText {
+            get {
+                return ResourceManager.GetString("ColorContrast_NonTextObjectsTestResultHelpText", resourceCulture);
             }
         }
         
@@ -1047,7 +1101,7 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sample small bold text.
+        ///   Looks up a localized string similar to Sample regular bold text.
         /// </summary>
         public static string ColorContrast_SmallSampleBoldHelpText {
             get {
@@ -1056,7 +1110,7 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sample small text.
+        ///   Looks up a localized string similar to Sample regular text.
         /// </summary>
         public static string ColorContrast_SmallSampleHelpText {
             get {
@@ -1065,7 +1119,7 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Test result small text.
+        ///   Looks up a localized string similar to Test result regular text.
         /// </summary>
         public static string ColorContrast_SmallTextResultHelpText {
             get {
@@ -2116,15 +2170,6 @@ namespace AccessibilityInsights.SharedUx.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Test result large text.
-        /// </summary>
-        public static string largeTextResultAutomationHelpText {
-            get {
-                return ResourceManager.GetString("largeTextResultAutomationHelpText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Attribute:.
         /// </summary>
         public static string lbAttributeContent {
@@ -2514,9 +2559,18 @@ namespace AccessibilityInsights.SharedUx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Press right arrow key to expand, enter or space to toggle children highlighting.
         /// </summary>
-        public static string lvResultsListViewHelpText {
+        public static string lvResultsListViewHelpTextCollapsed {
             get {
-                return ResourceManager.GetString("lvResultsListViewHelpText", resourceCulture);
+                return ResourceManager.GetString("lvResultsListViewHelpTextCollapsed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Press left arrow key to collapse, enter or space to toggle children highlighting.
+        /// </summary>
+        public static string lvResultsListViewHelpTextExpanded {
+            get {
+                return ResourceManager.GetString("lvResultsListViewHelpTextExpanded", resourceCulture);
             }
         }
         
@@ -3084,6 +3138,33 @@ namespace AccessibilityInsights.SharedUx.Properties {
         public static string RangeSelectionNotChanged {
             get {
                 return ResourceManager.GetString("RangeSelectionNotChanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There was an error loading the URL.\nURL: {0}.
+        /// </summary>
+        public static string ReleaseNotes_ClickLoadErrorMessage {
+            get {
+                return ResourceManager.GetString("ReleaseNotes_ClickLoadErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The URL was not properly formatted.\nURL: {0}.
+        /// </summary>
+        public static string ReleaseNotes_ClickURLErrorMessage {
+            get {
+                return ResourceManager.GetString("ReleaseNotes_ClickURLErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View the release notes here..
+        /// </summary>
+        public static string ReleaseNotesText {
+            get {
+                return ResourceManager.GetString("ReleaseNotesText", resourceCulture);
             }
         }
         
@@ -4188,6 +4269,33 @@ namespace AccessibilityInsights.SharedUx.Properties {
         public static string TTAutomationPropertiesName {
             get {
                 return ResourceManager.GetString("TTAutomationPropertiesName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An update is available.
+        /// </summary>
+        public static string UpdateContainedDialog_An_update_is_available {
+            get {
+                return ResourceManager.GetString("UpdateContainedDialog_An_update_is_available", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An update is required.
+        /// </summary>
+        public static string UpdateContainedDialog_An_update_is_required {
+            get {
+                return ResourceManager.GetString("UpdateContainedDialog_An_update_is_required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is an update available.
+        /// </summary>
+        public static string UpdateContainedDialogAutomationName {
+            get {
+                return ResourceManager.GetString("UpdateContainedDialogAutomationName", resourceCulture);
             }
         }
         

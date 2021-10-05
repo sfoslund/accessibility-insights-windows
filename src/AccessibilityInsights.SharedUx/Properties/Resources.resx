@@ -387,8 +387,11 @@
   <data name="lvResultsListViewAutomationPropertiesName" xml:space="preserve">
     <value>{1} errors - {0}, {2} children highlighted</value>
   </data>
-  <data name="lvResultsListViewHelpText" xml:space="preserve">
+  <data name="lvResultsListViewHelpTextCollapsed" xml:space="preserve">
     <value>Press right arrow key to expand, enter or space to toggle children highlighting</value>
+  </data>
+  <data name="lvResultsListViewHelpTextExpanded" xml:space="preserve">
+    <value>Press left arrow key to collapse, enter or space to toggle children highlighting</value>
   </data>
   <data name="lblCongratsContent" xml:space="preserve">
     <value>Congratulations</value>
@@ -441,7 +444,7 @@
   <data name="smallSampleText" xml:space="preserve">
     <value>The quick brown fox</value>
   </data>
-  <data name="largeTextResultAutomationHelpText" xml:space="preserve">
+  <data name="ColorContrast_LargeTextResultHelpText" xml:space="preserve">
     <value>Test result large text</value>
   </data>
   <data name="ColorContrast_OpenLinkFailed" xml:space="preserve">
@@ -1219,13 +1222,13 @@
     <value>Sample large text</value>
   </data>
   <data name="ColorContrast_SmallSampleBoldHelpText" xml:space="preserve">
-    <value>Sample small bold text</value>
+    <value>Sample regular bold text</value>
   </data>
   <data name="ColorContrast_SmallSampleHelpText" xml:space="preserve">
-    <value>Sample small text</value>
+    <value>Sample regular text</value>
   </data>
   <data name="ColorContrast_SmallTextResultHelpText" xml:space="preserve">
-    <value>Test result small text</value>
+    <value>Test result regular text</value>
   </data>
   <data name="PropertyConfigDialogAutomationName" xml:space="preserve">
     <value>Select properties to always show</value>
@@ -1308,7 +1311,7 @@ We collect anonymized data to identify the top accessibility issues found by use
     <value>Auto detect contrast ratio</value>
   </data>
   <data name="ColorContrast_AutoDetectGuidance" xml:space="preserve">
-    <value>Auto-detection allows you to evaulate color contrast ratios by hovering over an element or setting the keyboard focus on it.</value>
+    <value>Auto-detection allows you to evaluate color contrast ratios by hovering over an element or setting the keyboard focus on it.</value>
   </data>
   <data name="hlHelpName" xml:space="preserve">
     <value>Help</value>
@@ -1514,5 +1517,38 @@ Do you want to change the channel? </value>
   </data>
   <data name="TextRangeControl_Details" xml:space="preserve">
     <value>Details</value>
+  </data>
+  <data name="ColorContrast_NonTextObjectsTestResultHelpText" xml:space="preserve">
+    <value>Test result Graphical objects</value>
+  </data>
+  <data name="UpdateContainedDialogAutomationName" xml:space="preserve">
+    <value>There is an update available</value>
+  </data>
+  <data name="UpdateContainedDialog_An_update_is_required" xml:space="preserve">
+    <value>An update is required</value>
+  </data>
+  <data name="UpdateContainedDialog_An_update_is_available" xml:space="preserve">
+    <value>An update is available</value>
+  </data>
+  <data name="ReleaseNotes_ClickLoadErrorMessage" xml:space="preserve">
+    <value>There was an error loading the URL.\nURL: {0}</value>
+  </data>
+  <data name="ReleaseNotes_ClickURLErrorMessage" xml:space="preserve">
+    <value>The URL was not properly formatted.\nURL: {0}</value>
+  </data>
+  <data name="ReleaseNotesText" xml:space="preserve">
+    <value>View the release notes here.</value>
+  </data>
+  <data name="btnUpdateLaterText" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="btnUpdateNowText" xml:space="preserve">
+    <value>Update now</value>
+  </data>
+  <data name="closeDialogText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ApplicationSettingsControl_TelemetryDisabledByAdministrator" xml:space="preserve">
+    <value>Telemetry has been disabled by an administrator of this computer.</value>
   </data>
 </root>
