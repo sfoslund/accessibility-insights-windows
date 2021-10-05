@@ -69,6 +69,8 @@ namespace AccessibilityInsights.Extensions.AzureDevOps
 
         public string LogoText => "Azure Boards";
 
+        public string ConfigurationPath { get; private set; }
+
         public IssueConfigurationControl ConfigurationControl { get; } = new ConfigurationControl();
 
         public bool CanAttachFiles => true;
@@ -89,8 +91,9 @@ namespace AccessibilityInsights.Extensions.AzureDevOps
             Application.Current.Dispatcher.Invoke(() => topMost = Application.Current.MainWindow.Topmost);
 
             Action<int> updateZoom = (int x) => Configuration.ZoomLevel = x;
+            //pass in the configurationPath so that you can access it in the FileNewIssue method
             (int? issueId, string newIssueId) = _fileIssueHelpers.FileNewIssue(issueInfo, Configuration.SavedConnection,
-                topMost, Configuration.ZoomLevel, updateZoom);
+                topMost, Configuration.ZoomLevel, updateZoom, this.ConfigurationPath);
 
             return Task.Run<IIssueResult>(() => {
                 // Check whether issue was filed once dialog closed & process accordingly
@@ -131,6 +134,11 @@ namespace AccessibilityInsights.Extensions.AzureDevOps
         {
             settings = _devOpsIntegration?.Configuration?.GetSerializedConfig();
             return settings != null;
+        }
+
+        public void SetConfigurationPath(string configurationPath)
+        {
+            this.ConfigurationPath = configurationPath;
         }
     }
 }
